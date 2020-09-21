@@ -13,6 +13,6 @@ This site includes the slides and labs for the Docker Kubernetes class.
 Lab 1: [Images](labs/images/)   
 Lab 2: [Networking](labs/networking/)   
 Lab 3: [Optimizing Dockerfiles](labs/adv-dockerfile/)    
-[Setup Kubernetes Cluster](https://gist.github.com/jruels/5d2ae0b0251c9deabd9d2cf0a148d0e5)   
-Lab 4: [Get familiar with Kubectl](labs/commands/)   
+Lab 4: [Setup Kubernetes Cluster](https://gist.github.com/jruels/5d2ae0b0251c9deabd9d2cf0a148d0e5)   
+Lab 5: [Get familiar with Kubectl](labs/commands/)   
 
