@@ -6,7 +6,7 @@ This site includes the slides and labs for the Docker Kubernetes class.
 [Slides Day 1](https://www.dropbox.com/s/djlidf331ve6g4e/Kube-Admin-day1.pdf?dl=0)   
 
 ## Labs
-[Lab VMs](https://docs.google.com/spreadsheets/d/1kW1rNQMZVdoYa2IDLZa66rLv122LM_mIfkbjxhEmVsQ/edit?usp=sharing)   
+[Lab VMs](https://docs.google.com/spreadsheets/d/17b51WzMkkax5ERipfQwA3iYXX4GO-TuGc75Ft5nipFk/edit?usp=sharing)   
 [Access Docker Lab](labs/access_docker/)   
 
 ### Day 1 
