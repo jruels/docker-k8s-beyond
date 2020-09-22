@@ -77,7 +77,7 @@ kubectl describe svc kubernetes
 
 6. Look at deployment details
 ```
-kubectl describe deployment -n kube-system coredns 
+kubectl describe deployment -n kube-system kube-dns
 ```
 
 Now you should have a better understanding of Kubernetes resources and using the `kubectl` client.
