@@ -295,7 +295,7 @@ helm rollback helm-demo-app 1
 
 It will return that rollback was successful and you can confirm that by checking only 1 Pod is running. 
 
-You can also check by looking at the `helm history` 
+You can also check by looking at the `helm history helm-demo-app` 
 
 You should now see 3 releases and the current one has a description of "Rollback to v1" 
 
