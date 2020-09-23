@@ -97,7 +97,7 @@ NAME                      READY   STATUS    RESTARTS   AGE
 demo-app-8b9c4f6d-bxk48   1/1     Running   0          55m
 ```
 
-Confirm the Service is running and type `NodePort`
+Confirm the Service is running and type `LoadBalancer`
 ```
 kubectl get svc -l app.kubernetes.io/name=demo-app
 ```
