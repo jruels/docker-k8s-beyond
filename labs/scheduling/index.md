@@ -101,11 +101,6 @@ Kubernetes has built-in node labels that can be used without being applied manua
 Interpod Affinity and AntiAffinity can be even more useful when they are used with higher level collections such as ReplicaSets, Statefulsets, Deployments, etc. One can easily configure that a set of workloads should be co-located in the same defined topology, eg., the same node.
 
 ## Always co-located on the same node
-## Allow workloads to run on Master node. 
-Prior to this lab we must remove the taint from the master so that workloads can run on it. 
-```
-kubectl taint nodes --all node-role.kubernetes.io/master-
-```
 
 In a three node cluster, a web application has in-memory cache such as redis. We want the web-servers to be co-located with the cache as much as possible. Here is the yaml snippet of a simple redis deployment with three replicas and selector label `app=store`. The deployment has `PodAntiAffinity` configured to ensure the scheduler does not co-locate replicas on a single node.
 
