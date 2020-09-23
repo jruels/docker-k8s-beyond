@@ -229,8 +229,8 @@ kubectl get svc -l app.kubernetes.io/name=helm-demo-app
 ```
 
 ```
-NAME                             READY   STATUS    RESTARTS   AGE
-helm-demo-app-7fbfc6b476-v7r8v   1/1     Running   0          52s
+NAME            TYPE           CLUSTER-IP      EXTERNAL-IP      PORT(S)          AGE
+helm-demo-app   LoadBalancer   10.31.244.161   104.197.184.61   8080:30099/TCP   2m18s
 ```
 
 Now let's access our application 
