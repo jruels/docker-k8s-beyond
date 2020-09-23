@@ -4,7 +4,7 @@ This lab shows how to run a web application behind a Google HTTP load balancer b
 ## Background
 GKE offers two types of cloud load balancing to expose your application publicly:
 
-As discussed in pervious labs you can create TCP/UDP load balancers by specifying `type: LoadBalancer` in a Service manifest file. 
+As discussed in previous labs you can create TCP/UDP load balancers by specifying `type: LoadBalancer` in a Service manifest file. 
 
 The other option is an Ingress controller which offers features like customizable URL maps and TLS termination. Another feature is GKE automatically configures health checks for HTTP(S) load balancers.
 
