@@ -1220,7 +1220,7 @@ The policy does the following:
 
 In the Cloud Shell enter the labs directory   
 ```
-cd ~/docker-k8s-beyond/labs
+cd ~/docker-k8s-beyond/labs/istio
 ```
 
 Deploy test mtlstest Pod 
