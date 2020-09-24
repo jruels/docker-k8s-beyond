@@ -1218,9 +1218,9 @@ The policy does the following:
 
 * Creates a ServiceRoleBinding that assign the service-viewer role to all services in the istio-system and default namespaces.
 
-In the Cloud Shell enter the kube-admin directory   
+In the Cloud Shell enter the labs directory   
 ```
-cd ~/deloitte/kube-admin/labs
+cd ~/docker-k8s-beyond/labs
 ```
 
 Deploy test mtlstest Pod 

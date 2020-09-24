@@ -5,12 +5,12 @@ adjust a deployments requested memory and CPU as well as automatically provision
 
 ## Update cluster to support vertical pod autoscaler.    
 ```
-gcloud container clusters update deloitte-lab --enable-vertical-pod-autoscaling --zone us-central1-f
+gcloud container clusters update kube-lab --enable-vertical-pod-autoscaling --zone us-central1-f
 ```
 
 After the cluster has completed updating run the following to enable node autoprovisioning (Cluster Autoscaler).   
 ```
-gcloud container clusters update deloitte-lab --enable-autoprovisioning --max-cpu 50 --max-memory 1000 --zone us-central1-f
+gcloud container clusters update kube-lab --enable-autoprovisioning --max-cpu 50 --max-memory 1000 --zone us-central1-f
 ```
 
 In some ways, the Kubernetes CPU and RAM allocation model is a bit of a trap: Request too much and the underlying cluster is less efficient; request too little and you put the entire service at risk. 
